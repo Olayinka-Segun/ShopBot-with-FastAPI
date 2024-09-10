@@ -1,0 +1,16 @@
+{% extends "base.html" %}
+
+{% block title %}Chat - ShopBot{% endblock %}
+
+{% block content %}
+<h1>Chat with ShopBot</h1>
+<div id="chat-container">
+    <div id="chat-box">
+        <!-- Messages will be dynamically added here -->
+    </div>
+    <form id="chat-form">
+        <input type="text" id="user-message" placeholder="Type your message here..." required>
+        <button type="submit">Send</button>
+    </form>
+</div>
+{% endblock %}
